@@ -1,0 +1,249 @@
+body{
+    /* background-image: url("https://img.freepik.com/free-photo/spectrum-flashes-coloured-light_23-2151792456.jpg?semt=ais_hybrid&w=740&q=80"); */
+    background-image: url("images/image\ copy\ 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+
+.outer{
+    height:600px;
+    width:500px;
+    background-color: antiquewhite;
+
+    border-radius: 20px;
+    margin:auto;
+    margin-top: 80px;
+    border:2px solid black;
+   
+
+    background-image: url("image.png");
+    background-size: cover;
+    box-shadow: 8px 8px brown;
+
+
+}
+#head{
+    text-align: center;
+    position: relative;
+    /* top:10px; */
+    font-family: cursive;
+    font-size:50px;
+    text-shadow:2px 2px lightblue;
+
+
+
+}
+hr{
+    font-weight: bold;
+    border-color: black;
+
+
+}
+form{
+    margin-left:30px;
+
+    font-size: 20px;
+    margin-top:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+
+
+}
+#s1h{
+    color:rgb(21, 59, 15);
+    /* margin-right:50px; */
+    margin-bottom: 20px;
+    font-size: 22px;
+
+
+
+}
+input{
+    font-size: 18px;
+    
+    text-align: center;
+    color:rgb(9, 4, 4);
+    background-color:rgb(219, 213, 246);
+    border-radius: 10px;
+    margin-left:10px;
+    height:25px;
+
+
+
+
+}
+.inner2{
+ 
+    font-weight: bold;
+    font-size: 30px;
+    color:rgb(2, 1, 78);
+    margin-bottom:20px;
+    text-align: center;
+
+
+}
+.b1{
+    width: 100px;
+    height:30px;
+    text-align: center;
+
+    background-color: rgb(243, 243, 134);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border:2px solid rgb(55, 39, 39);
+    margin-top: 20px;
+}
+.inner3{
+    font-size:medium;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    color:blue;
+
+
+}
+.inner4{
+    display: flex;
+    flex-direction: row;
+    height:30px;
+
+    
+    width:300px;
+    margin-top: 20px;
+    border:1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding:0px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+
+    margin-left: 80px;
+    background-color: beige;
+
+
+
+
+
+}
+#google{
+    display: inline-block;
+   
+    margin-left: 10px;
+    font-size: 18px;
+
+
+}
+.in1{
+    text-align: center;
+    position: relative;
+    /* top:10px; */
+    font-family: cursive;
+    font-size:50px;
+    text-shadow:2px 2px lightblue;
+    background-color: rgba(144, 238, 144, 0.548);
+    height:90px;
+    display: fixed;
+    border-radius: 20px;
+    /* width:50%; */
+    margin: auto;
+
+    font-weight: 900;
+    ;
+    background-image: url("images/image\ copy\ 6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid green;
+    position: relative;
+    top:-8px;
+
+
+
+
+
+
+
+}
+.in1:hover{
+
+    background-image:url("images/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+
+.out2{
+    display: flex;
+    font-size:25px;
+    justify-content: space-around;
+    width: 70%;
+    margin:auto;
+    /* margin-top:10px; */
+    border-bottom: 3px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius:20px;
+    background-image: url("images/image\ copy\ 6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:40px;
+    padding-top:10px;
+    margin-top:-8px;
+    
+
+
+
+
+
+
+
+
+}
+.out2:hover{
+    background-image: url("images/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom:3px solid blue;
+    border-left: 3px solid blue;
+    border-right:3px solid blue;
+    background-position: top;
+
+}
+a{
+    text-decoration: none;
+    color:black
+
+
+}
+a:hover{
+    color:blueviolet;
+}
+.in{
+    /* background-image:url("images/image2.png"); */
+    border-radius: 20px;
+    height:30px;
+    padding:3px;
+    font-weight: bold;
+    background-size: cover;
+    background-position: bottom;
+
+
+
+
+    text-shadow:0.5px 0.5px white;
+    padding-left:10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.in:hover{
+    color:blueviolet;
+
+}
