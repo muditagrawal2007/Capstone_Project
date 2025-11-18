@@ -118,95 +118,7 @@ a{
 }
 
 
-
-
-form{
-    margin-left:30px;
-
-    font-size: 20px;
-    margin-top:20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
- margin:auto;
-    margin-top:150px;
-    background-color: rgba(248, 166, 52, 0.689);
-    width:500px;
-    height:500px;
-    padding-top: 20px;
-    box-sizing: border-box;
-    border-radius: 40px;
-    box-shadow: 2px 2px 50px;
-    transition: all 3s ;
-   
-
-   
-
-
-
-
-}
-
-form:hover{
-    transform: scale(1.1);
-}
-#s1h{
-    color:rgb(0, 0, 0);
-    /* margin-right:50px; */
-    margin-bottom: 20px;
-    font-size: 22px;
-    
-
-
-}
-input{
-    font-size: 18px;
-    
-    text-align: center;
-    color:rgb(9, 4, 4);
-    background-color:rgb(219, 213, 246);
-    border-radius: 10px;
-    margin-right:10px;
-    height:25px;
-
-
-
-
-}
-.inner2{
  
-    font-weight: bold;
-    font-size: 30px;
-    color:rgb(2, 1, 78);
-    margin-bottom:20px;
-    text-align: center;
-    margin-top:50px;
-    margin-bottom: 50px;
-    ;
-
-
-
-}
-.b1{
-    width: 100px;
-    height:30px;
-    text-align: center;
-
-    background-color: rgba(243, 243, 134, 0.627);
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 10px;
-    border:2px solid rgb(55, 39, 39);
-    margin-top: 20px;
-}
-.inner3{
-    font-size:medium;
-    text-align: center;
-    margin-top: 20px;
-    cursor: pointer;
-    color:blue;
-
-
-}
 #head{
     text-align: center;
     position: relative;
@@ -219,3 +131,99 @@ input{
 
 }
 
+
+.f1{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: 20px;
+
+
+    
+
+    }
+    .exper{
+        color:rgba(255, 154, 23, 0.704);
+        text-align: center;
+        ;
+        text-shadow: 1px 1px black;
+
+    }
+fieldset{
+    /* background-image: url(image\ copy\ 6.png); */
+
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    border-radius: 10px;
+    border:3px dashed rgb(225, 0, 0);
+    width:500px;
+    text-align: left;
+   color:black;
+
+
+
+
+    
+}
+legend{
+    text-align: center;
+}
+label{
+    color:black;
+    
+    font-size:23px;
+
+    text-shadow: white;
+    
+
+
+
+}
+input{
+    font-size: 19px;
+}
+textarea{
+    font-size: 15px;
+    margin:auto;
+    margin-left:70px;
+
+
+}
+input,textarea{
+    border-radius: 10px;
+    background-color:rgba(251, 195, 74, 0.579);
+    color:rgba(16, 8, 8, 0.619);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.541);
+    text-align: center;
+    
+
+
+}
+.b1 {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+
+    background-color: rgba(243, 243, 134, 0.539);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid rgb(55, 39, 39);
+    margin-top: 20px;
+}
+
+.foo{
+    display: flex;
+    justify-content: space-between;
+    width:300px;
+    
+
+
+}
+form {
+    margin-top:60px;
+
+}
