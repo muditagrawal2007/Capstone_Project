@@ -1,0 +1,185 @@
+body{
+    /* background-color: rgba(255, 238, 0, 0.521); */
+  
+    
+
+
+}
+
+
+.tabs {
+    display: flex;
+    gap: 3%;
+    width: 250%;
+    /* justify-content: space-evenly; */
+    margin-right: 1%;
+    justify-content: center
+    ;
+
+
+
+
+
+}
+
+
+.header_nav {
+    display: flex;
+    align-items: center;
+
+    /* width:%; */
+    margin: auto;
+    /* margin-top: -10px; */
+    background-color: rgba(140, 255, 0, 0.223);
+    border-radius: 30px;
+   height:60px;
+   border:2px solid blueviolet;
+   box-shadow: 0.5px 0.5px 20px rgb(135, 24, 238);
+
+
+  
+
+
+
+
+
+
+
+
+
+}
+.header_nav:hover{
+    
+      border:2px solid red;
+    box-shadow: 3px 3px 50px red;
+    border-radius:30px;
+
+}
+
+
+
+@keyframes colorchange {
+    0% {
+        color: rgb(119, 7, 96);
+        text-shadow: 2px 2px black;}
+    50%{
+        color:rgb(0, 0, 0);
+        text-shadow: 2px 2px rgb(248, 3, 224);
+    }
+    100%{
+        color: rgb(119, 7, 96);
+        text-shadow: 2px 2px black;}
+    
+    
+}
+
+.name {
+   
+    width:150%;
+    font-family: cursive;
+    font-size: 150%;
+    animation-name: colorchange;
+    animation-iteration-count: infinite;
+
+    animation-duration: 10s;
+    animation-delay: 5sec;
+
+
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 140%;
+    font-weight: bold;
+
+
+}
+.tab:hover{
+    transform: scale(1.1);
+    
+
+}
+a:hover{
+    color:rgba(15, 65, 248, 0.857);
+    text-shadow: 1px 1px 20px red;
+    cursor: pointer;
+}
+
+.imgperson{
+    background-image: url("images/image\ copy\ 37.png");
+    height:400px;
+    width:500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 0px;;
+   
+
+}
+.headsearch{
+    display: flex;
+    height:400px;
+    gap:20px;
+    text-align: center;
+    justify-content: center;
+    margin-top:50px;
+  background-color: rgba(253, 215, 109, 0.687);
+  width:65%;
+text-align: center;
+margin-left:20%;
+margin-right: 10%;
+border-radius: 50px;
+box-shadow: 2px 2px 50px ;
+border:2px solid black;
+
+
+
+}
+.label{
+    font-size: 3vh;
+
+    height:auto;
+  
+
+
+
+
+    
+}
+.det{
+    display: flex;
+      
+
+
+}
+.indet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    ;
+    text-align: center;
+
+}
+input{
+    font-size: 2vh;
+    border-radius: 20px;
+    background-color: rgba(127, 255, 212, 0.324);
+    margin-bottom: 10px;
+}
+button{
+    width:10vw;
+    background-color:antiquewhite;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 2.5vh;
+    margin-top: 10px;
+
+
+}
+.headsearch:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 50px brown;
+    border-color:brown
+}

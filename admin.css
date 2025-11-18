@@ -1,6 +1,8 @@
 
 body{
-    background-image:url("images/image\ copy\ 12.png");
+    background-image:url("images/image\ copy\ 32.png");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
 
 }
 
@@ -209,7 +211,8 @@ a:hover{
     border-radius: 20px;
     margin:auto;
     margin-top: 80px;
-    /* border:2px solid black; */
+    border:1px solid aquamarine;
+    box-shadow: 5px 5px 3px aqua;
 
 
     background-color: rgba(69, 192, 192, 0.704);

@@ -1,8 +1,8 @@
-body{
-    background-image:url("images/image\ copy\ 12.png")
-
+body {
+    background-image: url("images/image\ copy\ 12.png")
 }
-.main{
+
+.main {
     display: flex;
     background-color: rgba(56, 80, 151, 0.407);
     border-bottom: 5px solid black;
@@ -10,36 +10,20 @@ body{
 }
 
 
-.in1{
+.in1 {
     text-align: center;
-    width:600px;
+    width: 600px;
 
     position: relative;
-    /* top:10px; */
     font-family: cursive;
-    font-size:50px;
-    /* text-shadow:px 2px rgb(134, 252, 252); */
-    /* background-color: rgba(56, 80, 151, 0.407); */
-    height:100px;
-    /* display: fixed; */
-    /* border-radius: 20px; */
-    /* width:50%; */
-    /* margin: auto; */
-    /* width:90%; */
-
+    font-size: 50px;
+    height: 100px;
     font-weight: 900;
-    
-    /* background-image: url("images/image\ copy\ 11.png"); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-position: bottom; */
-    /* border-bottom: 5px solid black; */
-    /* position: relative; */
-    /* top:0px; */
-    text-align: left;;
-    margin-left:5px;
+    text-align: left;
+    ;
+    margin-left: 5px;
 
-    animation-name:colorchange;
+    animation-name: colorchange;
     animation-iteration-count: infinite;
 
     animation-duration: 10s;
@@ -50,121 +34,71 @@ body{
 
 
 }
-@keyframes colorchange{
-    0%{
-        /* background-color:rgba(186, 251, 186, 0.548) */
-        /* opacity: 50%; */
-        /* border:blue; */
-        /* color:rgb(0, 0, 0); */
-         /* font-size:45px; */
-        /* text-shadow:2px 2px black; */
 
-        
-        font-weight:bold;
-        /* box-shadow:10px red; */
+@keyframes colorchange {
+    0% {
 
 
-        color:rgb(255, 0, 0);
-         /* font-size:45px; */
+        font-weight: bold;
+        color: rgb(255, 0, 0);
+        text-shadow: 2px 2px black;
 
-          text-shadow:2px 2px black;
-        /* text-shadow:2px 2px lightgreen; */
-
-    }
-    30%{
-        /* background-color: rgba(232, 239, 86, 0.548); */
-         color:white;
-         /* font-size:60px; */
-         /* font-size:60px; */
-          text-shadow:2px 2px rgba(255, 0, 0, 0.956)  ;
 
     }
 
-    60%{
-        /* background-color: rgb(235, 157, 148); */
-         /* color:rgb(255, 43, 255);
-         font-size:45px;
-          text-shadow:2px 2px rgb(0, 0, 0); */
+    30% {
 
-         color:rgb(255, 0, 0);
-         /* font-size:45px; */
+        color: white;
 
-          text-shadow:2px 2px black;
+        text-shadow: 2px 2px rgba(255, 0, 0, 0.956);
 
     }
-    80%{
-          /* color:darkgoldenrod;
-         font-size:60px;
 
-          text-shadow:2px 2px black; */
+    60% {
 
-            color:white;
-         /* font-size:60px; */
-         /* font-size:60px; */
-          text-shadow:2px 2px rgba(255, 0, 0, 0.956)  
+
+        color: rgb(255, 0, 0);
+
+
+        text-shadow: 2px 2px black;
+
     }
-    100%{
-         /* background-color: rgb(230, 151, 236); */
-         /* color:darkred;
-         font-size:45px;
 
-          text-shadow:2px 2px black; */
+    80% {
 
 
-         color:rgb(255, 0, 0);
-         /* font-size:45px; */
+        color: white;
 
-          text-shadow:2px 2px black;
-      /* from{
-        background-color: blue;
+        text-shadow: 2px 2px rgba(255, 0, 0, 0.956)
+    }
 
-     }
-     to{
-        /* background-color: yellow;/* */
+    100% {
 
+
+        color: rgb(255, 0, 0);
+
+
+        text-shadow: 2px 2px black;
+
+
+    }
 }
-}
-/* .in1:hover{
-
-    background-image:url("images/image.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
-} */
 
 
 
-.out2{
+
+.out2 {
     display: flex;
-    font-size:25px;
-    /* justify-content: space-around; */
+    font-size: 25px;
     width: 1200px;
-    /* margin:auto; */
-    /* margin-top:10px; */
-    /* border-bottom: 3px solid black; */
-    /* border-left: 2px solid black; */
-    /* border-right: 2px solid black; */
-    /* border-radius:20px; */
-    /* text-shadow:2px 2px  red; */
-    color:white;
+   
+    color: white;
     margin: right 0px;
-    margin-top:10px;
+    margin-top: 10px;
+    height: 40px;
+    padding-top: 10px;
+animation-duration: 5s;
 
-
-    /* background-image: url("images/image\ copy\ 6.png"); */
-   /* background-color: rgba(56, 80, 151, 0.407); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    height:40px;
-    padding-top:10px;
-  
-
-      /* animation-name:boxmotion; */
-    /* animation-iteration-count: infinite; */
-
-    animation-duration: 5s;
-    
 
 
 
@@ -175,26 +109,27 @@ body{
 
 }
 
-a{
+a {
     text-decoration: none;
-    color:white;
+    color: white;
     text-shadow: 2px 2px black;
     opacity: 80%;
 
 
 
 }
-a:hover{
-    color:blueviolet;
+
+a:hover {
+    color: blueviolet;
     text-shadow: 1px 1px black;
-    font-size:27px;
+    font-size: 27px;
 
 }
-.in{
-    /* background-image:url("images/image2.png"); */
+
+.in {
     border-radius: 20px;
-    height:30px;
-    padding:3px;
+    height: 30px;
+    padding: 3px;
     font-weight: bold;
     background-size: cover;
     background-position: bottom;
@@ -202,134 +137,140 @@ a:hover{
 
 
 
-    text-shadow:0.5px 0.5px white;
-    padding-left:10px;
+    text-shadow: 0.5px 0.5px white;
+    padding-left: 10px;
     padding-right: 10px;
     cursor: pointer;
 }
-.in:hover{
-    color:blueviolet;
+
+.in:hover {
+    color: blueviolet;
 
 }
-.outeer6{
-    /* background-color:rgba(251, 123, 172, 0.711); */
+
+.outeer6 {
     text-align: center;
     font-size: 30px;
-    color:white;
-    
-
-     /* border:3px solid black; */
+    color: white;
     border-radius: 20px;
     margin-bottom: 10px;
-     width:80%;
-    margin:auto;
-margin-bottom: 10px;
-font-weight: bold;
-text-shadow: 1px 1px red;
-font-style:italic;
-margin-top:15px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px red;
+    font-style: italic;
+    margin-top: 15px;
 
 
     ;
 }
 
 
-.search{
+.search {
     /* background-color: pink; */
-   
-    margin-top:20px;
+
+    margin-top: 20px;
     /* display: inline-block; */
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
 
 
-    color:white;
-    text-align:center;
 
-    height:100px;
-    font-size:30px;
+    color: white;
+    text-align: center;
+
+    height: 100px;
+    font-size: 30px;
 
 }
-input{
-    font-size: 25px;;
+
+input {
+    font-size: 25px;
+    ;
     /* display: inline-block; */
 
 }
-.im{
+
+.im {
     /* display: inline-block; */
     margin-right: 10px;
 
 }
-.image{
+
+.image {
     background-color: white;
-    width:30px;
-    height:30px;
+    width: 30px;
+    height: 30px;
     margin-left: 0px;
     /* display: inline-block; */
 }
 
-.sea{
+.sea {
     display: flex;
-    
-}
-
-
-
-
-
-
-
-
-
-
-.details{
-    margin-top:40px;
-
-    display:grid;
-    grid-template-columns: 1fr 1fr;;
-
-
-    gap:40px;
-
-    margin-left:100px;
-    
-
 
 }
 
-.det{
-    height:450px;
-    width:600px;
-    background-color:rgba(0, 64, 255, 0.405);
+
+
+
+
+
+
+
+
+
+.details {
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    ;
+
+
+    gap: 40px;
+
+    margin-left: 100px;
+
+
+
+}
+
+.det {
+    height: 450px;
+    width: 600px;
+    background-color: rgba(0, 64, 255, 0.405);
     border-radius: 40px;
 
-    
+
 
 
 }
-.img2{
-    height:250px;
-    width:500px;
+
+.img2 {
+    height: 250px;
+    width: 500px;
     border-radius: 20px;
-    margin-left:50px;
+    margin-left: 50px;
 
 
-    margin-top:10px;
+    margin-top: 10px;
     opacity: 90%;
     box-shadow: 2px 2px blanchedalmond;
     ;
-    
+
 }
-.detname{
+
+.detname {
     margin-top: 0px;
     ;
-    color:rgba(195, 255, 0, 0.704);
-    font-size:25px;
-    margin:auto;
-    text-align: center;;
-  
+    color: rgba(195, 255, 0, 0.704);
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    ;
+
     line-height: 10px;
     font-weight: bold;
     ;
@@ -337,7 +278,7 @@ input{
 }
 
 
-.a1:hover{
+.a1:hover {
     /* height:500px;
     width:650px;
     font-size:40px;
@@ -345,12 +286,13 @@ input{
     margin-left:10px;
      */
 
-     transform: scale(1.1);
-     cursor: pointer;
-      background-color:rgba(255, 0, 0, 0.405);
-    
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
 }
-.a2:hover{
+
+.a2:hover {
     /* height:500px;
     width:650px;
     font-size:40px;
@@ -358,12 +300,13 @@ input{
     margin-left:10px;
      */
 
-     transform: scale(1.1);
-     cursor: pointer;
-      background-color:rgba(255, 0, 0, 0.405);
-    
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
 }
-.a3:hover{
+
+.a3:hover {
     /* height:500px;
     width:650px;
     font-size:40px;
@@ -371,12 +314,13 @@ input{
     margin-left:10px;
      */
 
-     transform: scale(1.1);
-     cursor: pointer;
-      background-color:rgba(255, 0, 0, 0.405);
-    
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
 }
-.a4:hover{
+
+.a4:hover {
     /* height:500px;
     width:650px;
     font-size:40px;
@@ -384,12 +328,13 @@ input{
     margin-left:10px;
      */
 
-     transform: scale(1.1);
-     cursor: pointer;
-      background-color:rgba(255, 0, 0, 0.405);
-    
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
 }
-.a5:hover{
+
+.a5:hover {
     /* height:500px;
     width:650px;
     font-size:40px;
@@ -397,12 +342,13 @@ input{
     margin-left:10px;
      */
 
-     transform: scale(1.1);
-     cursor: pointer;
-      background-color:rgba(255, 0, 0, 0.405);
-    
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
 }
-.a6:hover{
+
+.a6:hover {
     /* height:500px;
     width:650px;
     font-size:40px;
@@ -410,12 +356,13 @@ input{
     margin-left:10px;
      */
 
-     transform: scale(1.1);
-     cursor: pointer;
-      background-color:rgba(255, 0, 0, 0.405);
-    
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
 }
-.a7:hover{
+
+.a7:hover {
     /* height:500px;
     width:650px;
     font-size:40px;
@@ -423,12 +370,13 @@ input{
     margin-left:10px;
      */
 
-     transform: scale(1.1);
-     cursor: pointer;
-      background-color:rgba(255, 0, 0, 0.405);
-    
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
 }
-.a8:hover{
+
+.a8:hover {
     /* height:500px;
     width:650px;
     font-size:40px;
@@ -436,12 +384,13 @@ input{
     margin-left:10px;
      */
 
-     transform: scale(1.1);
-     cursor: pointer;
-      background-color:rgba(255, 0, 0, 0.405);
-    
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
 }
-.a9:hover{
+
+.a9:hover {
     /* height:500px;
     width:650px;
     font-size:40px;
@@ -449,12 +398,13 @@ input{
     margin-left:10px;
      */
 
-     transform: scale(1.1);
-     cursor: pointer;
-      background-color:rgba(255, 0, 0, 0.405);
-    
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
 }
-.a10:hover{
+
+.a10:hover {
     /* height:500px;
     width:650px;
     font-size:40px;
@@ -462,10 +412,10 @@ input{
     margin-left:10px;
      */
 
-     transform: scale(1.1);
-     cursor: pointer;
-      background-color:rgba(255, 0, 0, 0.405);
-    
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
 }
 
 
@@ -473,28 +423,28 @@ input{
 
 /* writing the code for the search bar */
 
-.ss{
-    
-    margin-top:22px;
+.ss {
+
+    margin-top: 22px;
     display: flex;
 
-    
+
     ;
-    margin-left:20px;
+    margin-left: 20px;
     border-radius: 20px;
     ;
-    
+
 
 
 }
 
 
-.imgg{
-    height:29px;
-    width:30px;
-   
-    border:1px solid black;
-    display:inline-block;
+.imgg {
+    height: 29px;
+    width: 30px;
+
+    border: 1px solid black;
+    display: inline-block;
     /* background-image: url("images/image\ copy\ 18.png");; */
     background-color: antiquewhite;
     cursor: pointer;
@@ -503,63 +453,66 @@ input{
 
 }
 
-input{
-    height:30px;
+input {
+    height: 30px;
 
     display: inline-block;
-    border:1px solid black
-    ;
+    border: 1px solid black;
     background-color: beige;
-    
-    
-    
 
 
-}
-.nn3{
-display: inline-block;
-margin-left:30px;
-font-size: 30px;
-height:25px;
 
 
 
 }
 
+.nn3 {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 30px;
+    height: 25px;
 
-select{
+
+
+}
+
+
+select {
     font-size: 22px;
     margin-top: 23px;
-       background-color: beige;
+    background-color: beige;
     border-radius: 30px;
 }
-.m1{
+
+.m1 {
     display: flex;
     text-align: center;
-    margin:auto;
+    margin: auto;
     justify-content: center;
     background-color: rgba(42, 151, 165, 0.599);
-    width:900px;
-    height:70px;
-    margin-top:30px;
-    border:1px solid black;
-    
+    width: 900px;
+    height: 70px;
+    margin-top: 30px;
+    border: 1px solid black;
+
     border-radius: 40px;
     ;
-    
+
 
 }
-.nn1{
+
+.nn1 {
     font-size: 30px;
     margin-top: -11px;
-    margin-left:40px;
+    margin-left: 40px;
     margin-right: 10px;
-    color:rgb(255, 243, 11);
+    color: rgb(255, 243, 11);
     text-shadow: 1px 1px white;
 
 
 }
-.m1:hover{
+
+.m1:hover {
 
     transform: scale(1.1);
     background-color: rgba(0, 0, 255, 0.481);
