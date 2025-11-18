@@ -116,107 +116,45 @@ a{
 
 
 }
+.outeer1{
+    height:340px;
+    width:70vw;
+    background-color: rgba(0, 0, 0, 0.683);
+    color:white;
+    border-radius: 30px;
+    font-size: 25px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ font-style: italic;
+ padding: 10px;
 
-
-
-
-form{
-    margin-left:30px;
-
-    font-size: 20px;
-    margin-top:20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
- margin:auto;
-    margin-top:150px;
-    background-color: rgba(248, 166, 52, 0.689);
-    width:500px;
-    height:500px;
-    padding-top: 20px;
-    box-sizing: border-box;
-    border-radius: 40px;
-    box-shadow: 2px 2px 50px;
-    transition: all 3s ;
-   
-
-   
-
-
-
+ transition: all 3s;
 
 }
 
-form:hover{
-    transform: scale(1.1);
+
+
+.outeer1:hover{
+    transform: scale(1.08);
+    color:aqua
 }
-#s1h{
-    color:rgb(0, 0, 0);
-    /* margin-right:50px; */
-    margin-bottom: 20px;
-    font-size: 22px;
-    
+.outeer6{
 
 
-}
-input{
-    font-size: 18px;
-    
-    text-align: center;
-    color:rgb(9, 4, 4);
-      color: rgb(0, 0, 0);
-    background-color: rgba(243, 109, 7, 0.272);
-    border-radius: 10px;
-    margin-right:10px;
-    height:25px;
-
-
-
-
-}
-.inner2{
- 
+    margin-top: 120px;
     font-weight: bold;
-    font-size: 30px;
-    color:rgb(2, 1, 78);
-    margin-bottom:20px;
+    font-size:30px;
     text-align: center;
-    margin-top:50px;
-    margin-bottom: 50px;
-    ;
-
-
-
-}
-.b1{
-    width: 100px;
-    height:30px;
-    text-align: center;
-
-    background-color: rgba(243, 243, 134, 0.627);
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 10px;
-    border:2px solid rgb(55, 39, 39);
-    margin-top: 20px;
-}
-.inner3{
-    font-size:medium;
-    text-align: center;
-    margin-top: 20px;
-    cursor: pointer;
-    color:blue;
-
-
-}
-#head{
-    text-align: center;
-    position: relative;
-    /* top:10px; */
-    font-family: cursive;
-    font-size:50px;
-    text-shadow:2px 2px red;
-
-
 
 }
 
+.mess{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}

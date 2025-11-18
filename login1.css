@@ -195,13 +195,15 @@ input{
     
     text-align: center;
     color:rgb(6, 6, 6);
-    background-color:rgb(219, 213, 246);
+    
+    background-color: rgba(243, 109, 7, 0.272);
     border-radius: 10px;
     margin-left:10px;
     height:25px;
     
 
 
+ 
 
 
 }
@@ -209,7 +211,7 @@ input{
  
     font-weight: bold;
     font-size: 30px;
-    color:rgba(0, 0, 0, 0.814);
+    color:#000000d0;
     margin-bottom:20px;
     text-align: center;
     text-shadow: 1px 1px rgb(147, 135, 58);
@@ -254,7 +256,7 @@ input{
     cursor: pointer;
 
     margin-left:50px;
-    background-color: rgba(245, 245, 220, 0.79);
+      background-color: rgba(245, 170, 112, 0.149);
 
 
 

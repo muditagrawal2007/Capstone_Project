@@ -1,0 +1,324 @@
+body{
+    background-color: rgba(237, 160, 84, 0.508);
+  
+    
+
+
+}
+
+
+.tabs {
+    display: flex;
+    gap: 3%;
+    width: 250%;
+    /* justify-content: space-evenly; */
+    margin-right: 1%;
+    justify-content: center
+    ;
+
+
+
+
+
+}
+
+
+.header_nav {
+    display: flex;
+    align-items: center;
+
+    /* width:%; */
+    margin: auto;
+   background-color: rgba(237, 160, 84, 0.95);
+    border-radius: 30px;
+   height:70px;
+   border:2px solid blueviolet;
+   box-shadow: 0.5px 0.5px 20px rgb(135, 24, 238);
+   position: fixed;
+   top:0px;
+   width: 99vw;
+   z-index:1000;
+
+
+
+  
+
+
+
+
+
+
+
+
+
+}
+.header_nav:hover{
+    
+      border:2px solid brown;
+      box-shadow: 2px 2px 50px brown;
+    border-radius:30px;
+
+}
+
+
+
+@keyframes colorchange {
+    0% {
+        color: rgb(119, 7, 96);
+        text-shadow: 2px 2px black;}
+    50%{
+        color:rgb(0, 0, 0);
+        text-shadow: 2px 2px rgb(248, 3, 224);
+    }
+    100%{
+        color: rgb(119, 7, 96);
+        text-shadow: 2px 2px black;}
+    
+    
+}
+
+.name {
+   
+    width:150%;
+    font-family: cursive;
+    font-size: 150%;
+    animation-name: colorchange;
+    animation-iteration-count: infinite;
+
+    animation-duration: 10s;
+    animation-delay: 5sec;
+    margin-left:10px;
+
+
+
+}
+.headanchor{
+    text-decoration: none;
+    font-size: 140%;
+    font-weight: bold;
+
+
+}
+.tab:hover{
+    transform: scale(1.1);
+    
+
+}
+.headanchor:hover{
+    color:rgba(15, 65, 248, 0.857);
+    text-shadow: 1px 1px 20px red;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+
+
+
+}
+
+
+
+.details {
+    margin-top: 120px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    ;
+
+
+    gap: 40px;
+
+    margin-left: 100px;
+
+
+
+}
+
+.det {
+    height: 450px;
+    width: 600px;
+    background-color: rgba(0, 64, 255, 0.405);
+    border-radius: 40px;
+ box-shadow: 2px 2px 50px;
+
+
+
+}
+
+.img2 {
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 50px;
+
+
+    margin-top: 10px;
+    opacity: 90%;
+    box-shadow: 2px 2px blanchedalmond;
+    ;
+
+}
+
+.detname {
+    margin-top: 0px;
+    ;
+    color: black;
+
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    ;
+
+    line-height: 10px;
+    font-weight: bold;
+    ;
+   
+}
+
+.a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8,.a9,.a10{
+
+
+
+    transition:all 3s;
+
+}
+.a1:hover {
+    /* height:500px;
+    width:650px;
+    font-size:40px;
+    margin:auto;
+    margin-left:10px;
+     */
+
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
+}
+
+.a2:hover {
+    /* height:500px;
+    width:650px;
+    font-size:40px;
+    margin:auto;
+    margin-left:10px;
+     */
+
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
+}
+
+.a3:hover {
+    /* height:500px;
+    width:650px;
+    font-size:40px;
+    margin:auto;
+    margin-left:10px;
+     */
+
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
+}
+
+.a4:hover {
+    /* height:500px;
+    width:650px;
+    font-size:40px;
+    margin:auto;
+    margin-left:10px;
+     */
+
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
+}
+
+.a5:hover {
+    /* height:500px;
+    width:650px;
+    font-size:40px;
+    margin:auto;
+    margin-left:10px;
+     */
+
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
+}
+
+.a6:hover {
+    /* height:500px;
+    width:650px;
+    font-size:40px;
+    margin:auto;
+    margin-left:10px;
+     */
+
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
+}
+
+.a7:hover {
+    /* height:500px;
+    width:650px;
+    font-size:40px;
+    margin:auto;
+    margin-left:10px;
+     */
+
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
+}
+
+.a8:hover {
+    /* height:500px;
+    width:650px;
+    font-size:40px;
+    margin:auto;
+    margin-left:10px;
+     */
+
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
+}
+
+.a9:hover {
+    /* height:500px;
+    width:650px;
+    font-size:40px;
+    margin:auto;
+    margin-left:10px;
+     */
+
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
+}
+
+.a10:hover {
+    /* height:500px;
+    width:650px;
+    font-size:40px;
+    margin:auto;
+    margin-left:10px;
+     */
+
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.405);
+
+}
