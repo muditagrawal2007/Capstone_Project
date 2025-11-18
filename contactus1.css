@@ -1,0 +1,231 @@
+body{
+    background-color: rgba(237, 160, 84, 0.508);
+  
+    
+
+
+}
+
+
+.tabs {
+    display: flex;
+    gap: 3%;
+    width: 250%;
+    /* justify-content: space-evenly; */
+    margin-right: 1%;
+    justify-content: center
+    ;
+
+
+
+
+
+}
+
+
+.header_nav {
+    display: flex;
+    align-items: center;
+
+    /* width:%; */
+    margin: auto;
+   background-color: rgba(237, 160, 84, 0.95);
+    border-radius: 30px;
+   height:70px;
+   border:2px solid blueviolet;
+   box-shadow: 0.5px 0.5px 20px rgb(135, 24, 238);
+   position: fixed;
+   top:0px;
+   width: 99vw;
+   z-index:1000;
+
+
+
+  
+
+
+
+
+
+
+
+
+
+}
+.header_nav:hover{
+    
+      border:2px solid brown;
+      box-shadow: 2px 2px 50px brown;
+    border-radius:30px;
+
+}
+
+
+
+@keyframes colorchange {
+    0% {
+        color: rgb(119, 7, 96);
+        text-shadow: 2px 2px black;}
+    50%{
+        color:rgb(0, 0, 0);
+        text-shadow: 2px 2px rgb(248, 3, 224);
+    }
+    100%{
+        color: rgb(119, 7, 96);
+        text-shadow: 2px 2px black;}
+    
+    
+}
+
+.name {
+   
+    width:150%;
+    font-family: cursive;
+    font-size: 150%;
+    animation-name: colorchange;
+    animation-iteration-count: infinite;
+
+    animation-duration: 10s;
+    animation-delay: 5sec;
+    margin-left:10px;
+
+
+
+}
+.headanchor{
+    text-decoration: none;
+    font-size: 140%;
+    font-weight: bold;
+
+
+}
+.tab:hover{
+    transform: scale(1.1);
+    
+
+}
+.headanchor:hover{
+    color:rgba(15, 65, 248, 0.857);
+    text-shadow: 1px 1px 20px red;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+
+
+
+}
+
+#head {
+    text-align: center;
+    position: relative;
+    /* top:10px; */
+    font-family: cursive;
+    font-size: 50px;
+    color:black;
+
+    text-shadow: 2px 2px red;
+
+
+
+}
+
+hr {
+    font-weight: bold;
+    border-color: red;
+
+
+}
+
+form {
+    margin-left: 30px;
+
+    font-size: 20px;
+    margin:auto;
+    
+    margin-top: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+ background-color: rgba(248, 166, 52, 0.689);
+ width:500px;
+    height:650px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 2px 2px 50px;
+    transition: all 3s ;
+   
+
+}
+form:hover{
+    transform: scale(1.07);
+}
+#s1h {
+    color: rgba(0, 0, 0, 0.574);
+    /* margin-right:50px; */
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-shadow: 1px 1px black;
+
+
+
+}
+
+input {
+    font-size: 18px;
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(243, 109, 7, 0.272);
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 25px;
+
+    border:2px solid black;
+
+
+
+
+}
+
+textarea {
+
+   color: rgb(0, 0, 0);
+    background-color:rgba(243, 109, 7, 0.272);
+    border-radius: 10px;
+    text-align: center;
+     font-size: 18px;
+     width: 70%;
+     
+       border:2px solid black;
+
+
+
+
+}
+
+.inner2 {
+
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(213, 83, 83, 0.833);
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+
+
+}
+
+.b1 {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+
+    background-color: rgba(243, 243, 134, 0.539);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid rgb(55, 39, 39);
+    margin-top: 20px;
+}
