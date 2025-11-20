@@ -2,6 +2,7 @@ body{
     background-color: bisque;
     background-image: url("images/image\ copy\ 34.png");
 
+    background-size: cover;
     
 
 
@@ -28,13 +29,13 @@ body{
     display: flex;
     align-items: center;
 
-    width:60%;
+    /* width:; */
     margin: auto;
     /* margin-top: -10px; */
     background-color: rgba(140, 255, 0, 0.223);
     border-radius: 30px;
-   height:50px;
-   border:2px solid blueviolet;
+   height: 2.9vw;
+   border:0.1vw solid blueviolet;
    box-shadow: 0.5px 0.5px 20px rgb(135, 24, 238);
 
 
@@ -49,9 +50,29 @@ body{
 
 
 }
+
+
+
+@media all and (max-width:883px){
+    .tab{
+        font-size:1.3vw;
+    }
+
+    .data{
+        font-size:1vw;
+
+
+    }
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+}
 .header_nav:hover{
     
-      border:2px solid red;
+      border:0.1vw solid red;
     box-shadow: 3px 3px 50px red;
     border-radius:30px;
 
@@ -113,7 +134,8 @@ a:hover{
     margin-top:-3%;
 
     font-family: cursive;
-    font-size: 300%;text-align: center;
+    font-size: 3vw;
+    text-align: center;
     animation-name: colorchange;
     animation-iteration-count: infinite;
 
@@ -129,7 +151,8 @@ a:hover{
 
 
     font-style: italic;
-    font-size: 300%;
+    font-size: 2.8vw;
+
     text-align: center;
     font-weight: bold;
     color:rgb(192, 15, 232);
@@ -151,7 +174,7 @@ a:hover{
 }
 
 .line{
-    height:7px;
+   height:0.4vw;
     width:100px;
     background-color:aqua;
     margin:20px;
@@ -161,7 +184,8 @@ a:hover{
     visibility: hidden;
     display: flex;
     justify-content: center;
-     
+     margin-left:-10px;
+
 
 
 }
@@ -186,8 +210,10 @@ a:hover{
 }
 
 .line2{
-    height:7px;
+    height:0.4vw;
     width:100px;
+
+
     background-color:black;
     margin:20px;
     animation-name:move;
@@ -197,6 +223,7 @@ a:hover{
     display: flex;
     justify-content: center;
     animation-delay: 2s;
-     
+     margin-left:-10px;
+
 
 }

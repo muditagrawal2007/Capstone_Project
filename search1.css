@@ -1,6 +1,8 @@
 body{
     background-color: rgba(237, 160, 84, 0.508);
   
+    /* background-repeat: no-repeat; */
+    background-size: contain;
     
 
 
@@ -21,6 +23,7 @@ body{
 
 
 }
+
 
 
 .header_nav {
