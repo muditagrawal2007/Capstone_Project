@@ -1,6 +1,6 @@
 body{
     background-color: bisque;
-    background-image: url("images/image\ copy\ 34.png");
+    background-image: url("images/image\ copy\ 2.png");
 
     background-size: cover;
     
@@ -32,13 +32,15 @@ body{
     /* width:; */
     margin: auto;
     /* margin-top: -10px; */
-    background-color: rgba(140, 255, 0, 0.223);
+         background-color: rgba(187, 128, 69, 0.861);
     border-radius: 30px;
-   height: 2.9vw;
+   height: 4vw;
    border:0.1vw solid blueviolet;
    box-shadow: 0.5px 0.5px 20px rgb(135, 24, 238);
 
-
+.tab{
+        font-size:1.3vw;
+    }
   
 
 

@@ -9,6 +9,8 @@ body{
 
 .tabs {
     display: flex;
+    flex-wrap: wrap;
+
     gap: 3%;
     width: 250%;
     /* justify-content: space-evenly; */
@@ -26,10 +28,11 @@ body{
 .header_nav {
     display: flex;
     align-items: center;
+   
 
     /* width:%; */
     margin: auto;
-   background-color: rgba(237, 160, 84, 0.95);
+     background-color: rgba(187, 128, 69, 0.861);
     border-radius: 30px;
    height:70px;
    border:2px solid blueviolet;
@@ -123,6 +126,7 @@ body{
 }
 .headsearch{
     display: flex;
+  
     height:400px;
     gap:20px;
     text-align: center;
@@ -155,6 +159,7 @@ border:2px solid black;
 }
 .det{
     display: flex;
+
       
 
 
@@ -202,6 +207,8 @@ button{
     align-items: center;
     color:white;
     font-weight: bold;
+    flex-wrap: wrap;
+
     
 
 }
@@ -216,6 +223,7 @@ button{
 .facilities{
 
     display: flex;
+    flex-wrap: wrap;
     color:rgb(0, 0, 0);
     font-size:25px;
     text-align: center;
@@ -329,6 +337,7 @@ a{
     gap:40px;
     margin-left:15px;
     margin-right:15px;
+    flex-wrap: wrap;
 
 
 

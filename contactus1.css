@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(237, 160, 84, 0.508);
+    background-color: rgba(219, 193, 153);
   
     
 
@@ -29,7 +29,7 @@ body{
 
     /* width:%; */
     margin: auto;
-   background-color: rgba(237, 160, 84, 0.95);
+     background-color: rgba(187, 128, 69, 0.861);
     border-radius: 30px;
    height:70px;
    border:2px solid blueviolet;
@@ -147,7 +147,8 @@ form {
     margin-top: 120px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
- background-color: rgba(248, 166, 52, 0.689);
+ /* background-color: rgba(248, 166, 52, 0.689); */
+ background-color:rgba(236, 206, 167, 0.685);
  width:500px;
     height:650px;
     padding-top: 20px;
@@ -228,4 +229,132 @@ textarea {
     border-radius: 10px;
     border: 2px solid rgb(55, 39, 39);
     margin-top: 20px;
+}
+.zig{
+
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    /* background-color: rgb(245, 53, 0); */
+    margin-top:100px;
+    margin-left:30px;
+
+    ;
+    opacity: 40%;
+    animation-name: motion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    /* box-shadow: 2px 2px 40px red; */
+
+     background-color: rgba(101, 70, 23, 0.811);;
+         box-shadow: 2px 2px 40px rgba(101, 70, 23, 0.811);;
+        
+}
+.design{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+@keyframes motion {
+
+    0%{
+
+        transform: translate(0px,0px);
+
+    background-color: rgba(101, 70, 23, 0.811);;
+
+    }
+    25%{
+
+        transform: translate(300px,300px);
+
+        background-color: rgb(172, 112, 6)
+;
+ box-shadow: 2px 2px 40px rgb(172, 112, 6)
+;
+    }
+    50%{
+        transform: translate(0px,600px);
+         background-color: rgba(101, 70, 23, 0.811);;
+         box-shadow: 2px 2px 40px rgba(101, 70, 23, 0.811);;
+        
+
+    }
+    75%{
+
+ transform: translate(300px,300px);
+
+        background-color: rgb(172, 112, 6)
+;
+ box-shadow: 2px 2px 40px rgb(172, 112, 6)
+;
+        
+
+
+    }
+
+    
+}
+
+.zig2{
+
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+   
+    margin-top:100px;
+    margin-left:30px;
+    background-color: rgb(172, 112, 6)
+
+    ;
+    animation-name: motion2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    box-shadow: 2px 2px 40px rgb(172, 112, 6);
+    opacity:40%;
+
+}
+.design{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+@keyframes motion2{
+
+    0%{
+
+        transform: translate(0px,0px);
+
+ background-color: rgb(172, 112, 6)
+
+
+    }
+    25%{
+
+        transform: translate(-300px,300px);
+
+        background-color: rgba(101, 70, 23, 0.811);
+         box-shadow: 2px 2px 40px rgba(101, 70, 23, 0.811);;
+    }
+    50%{
+        transform: translate(0px,600px);
+          background-color: rgb(172, 112, 6)
+;
+ box-shadow: 2px 2px 40px rgb(172, 112, 6)
+;
+
+
+    }
+    75%{
+
+ transform: translate(-300px,300px);
+
+        background-color: rgba(101, 70, 23, 0.811);;
+         box-shadow: 2px 2px 40px rgba(101, 70, 23, 0.811);;
+        
+
+
+    }
+
+    
 }
