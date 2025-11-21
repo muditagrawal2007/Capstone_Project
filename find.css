@@ -34,7 +34,7 @@ body{
     margin: auto;
      background-color: rgba(187, 128, 69, 0.861);
     border-radius: 30px;
-   height:70px;
+   height:71px;
    border:2px solid blueviolet;
    box-shadow: 0.5px 0.5px 20px rgb(135, 24, 238);
    position: fixed;
@@ -245,7 +245,7 @@ button{
     border-radius:20px;
      background-position: center;
       transition: all 2s;
-
+       opacity:80%;
 
 }
 .f1:hover{
@@ -264,7 +264,7 @@ button{
      border-radius:20px;
      background-position: center;
       transition: all 2s;
-
+       opacity:80%;
 }
 .f2:hover{
 
@@ -282,6 +282,8 @@ button{
      border-radius:20px;
       background-position: center;
        transition: all 2s;
+       opacity:80%;
+
 
 }
 
@@ -297,6 +299,7 @@ button{
  height:250px;
     width:250px;
      transition: all 2s;
+            opacity:80%;
 
 
       /* box-shadow: 2px 2px 50px black;  */
