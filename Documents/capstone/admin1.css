@@ -1,0 +1,352 @@
+body{
+    background-color: rgba(237, 160, 84, 0.508);
+  
+    
+
+
+}
+
+
+.tabs {
+    display: flex;
+    gap: 3%;
+    width: 250%;
+    /* justify-content: space-evenly; */
+    margin-right: 1%;
+    justify-content: center
+    ;
+
+
+
+
+
+}
+
+
+.header_nav {
+    display: flex;
+    align-items: center;
+
+    /* width:%; */
+    margin: auto;
+       background-color: rgba(187, 128, 69, 0.861);
+    border-radius: 30px;
+   height:70px;
+   border:2px solid blueviolet;
+   box-shadow: 0.5px 0.5px 20px rgb(135, 24, 238);
+   position: fixed;
+   top:0px;
+   width: 99vw;
+   z-index:1000;
+
+
+
+  
+
+
+
+
+
+
+
+
+
+}
+.header_nav:hover{
+    
+      border:2px solid brown;
+      box-shadow: 2px 2px 50px brown;
+    border-radius:30px;
+
+}
+
+
+
+@keyframes colorchange {
+    0% {
+        color: rgb(119, 7, 96);
+        text-shadow: 2px 2px black;}
+    50%{
+        color:rgb(0, 0, 0);
+        text-shadow: 2px 2px rgb(248, 3, 224);
+    }
+    100%{
+        color: rgb(119, 7, 96);
+        text-shadow: 2px 2px black;}
+    
+    
+}
+
+.name {
+   
+    width:150%;
+    font-family: cursive;
+    font-size: 150%;
+    animation-name: colorchange;
+    animation-iteration-count: infinite;
+
+    animation-duration: 10s;
+    animation-delay: 5sec;
+    margin-left:10px;
+
+
+
+}
+.headanchor{
+    text-decoration: none;
+    font-size: 140%;
+    font-weight: bold;
+
+
+}
+.tab:hover{
+    transform: scale(1.1);
+    
+
+}
+.headanchor:hover{
+    color:rgba(15, 65, 248, 0.857);
+    text-shadow: 1px 1px 20px red;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+
+
+
+}
+
+
+
+
+form{
+    margin-left:30px;
+
+    font-size: 20px;
+    margin-top:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+ margin:auto;
+    margin-top:150px;
+    background-color: rgba(248, 166, 52, 0.689);
+    width:500px;
+    height:500px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 2px 2px 50px;
+    transition: all 3s ;
+   
+
+   
+
+
+
+
+}
+
+form:hover{
+    transform: scale(1.1);
+}
+#s1h{
+    color:rgb(0, 0, 0);
+    /* margin-right:50px; */
+    margin-bottom: 20px;
+    font-size: 22px;
+    
+
+
+}
+input{
+    font-size: 18px;
+    
+    text-align: center;
+    color:rgb(9, 4, 4);
+      color: rgb(0, 0, 0);
+    background-color: rgba(243, 109, 7, 0.272);
+    border-radius: 10px;
+    margin-right:10px;
+    height:25px;
+
+
+
+
+}
+.inner2{
+ 
+    font-weight: bold;
+    font-size: 30px;
+    color:rgb(2, 1, 78);
+    margin-bottom:20px;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 50px;
+    ;
+
+
+
+}
+.b1{
+    width: 100px;
+    height:30px;
+    text-align: center;
+
+    background-color: rgba(243, 243, 134, 0.627);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border:2px solid rgb(55, 39, 39);
+    margin-top: 20px;
+}
+.inner3{
+    font-size:medium;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    color:blue;
+
+
+}
+
+.zig{
+
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    /* background-color: rgb(245, 53, 0); */
+    margin-top:100px;
+    margin-left:30px;
+
+    ;
+    opacity: 40%;
+    animation-name: motion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    /* box-shadow: 2px 2px 40px red; */
+
+     background-color: rgba(101, 70, 23, 0.811);;
+         box-shadow: 2px 2px 40px rgba(101, 70, 23, 0.811);;
+        
+}
+#head{
+    text-align: center;
+    position: relative;
+    /* top:10px; */
+    font-family: cursive;
+    font-size:50px;
+    text-shadow:2px 2px red;
+
+
+
+
+}
+
+.design{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+@keyframes motion {
+
+    0%{
+
+        transform: translate(0px,0px);
+
+    background-color: rgba(101, 70, 23, 0.811);;
+
+    }
+    25%{
+
+        transform: translate(300px,300px);
+
+        background-color: rgb(172, 112, 6)
+;
+ box-shadow: 2px 2px 40px rgb(172, 112, 6)
+;
+    }
+    50%{
+        transform: translate(0px,600px);
+         background-color: rgba(101, 70, 23, 0.811);;
+         box-shadow: 2px 2px 40px rgba(101, 70, 23, 0.811);;
+        
+
+    }
+    75%{
+
+ transform: translate(300px,300px);
+
+        background-color: rgb(172, 112, 6)
+;
+ box-shadow: 2px 2px 40px rgb(172, 112, 6)
+;
+        
+
+
+    }
+
+    
+}
+
+.zig2{
+
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+   
+    margin-top:100px;
+    margin-left:30px;
+    background-color: rgb(172, 112, 6)
+
+    ;
+    animation-name: motion2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    box-shadow: 2px 2px 40px rgb(172, 112, 6);
+    opacity:40%;
+
+}
+.design{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+@keyframes motion2{
+
+    0%{
+
+        transform: translate(0px,0px);
+
+ background-color: rgb(172, 112, 6)
+
+
+    }
+    25%{
+
+        transform: translate(-300px,300px);
+
+        background-color: rgba(101, 70, 23, 0.811);
+         box-shadow: 2px 2px 40px rgba(101, 70, 23, 0.811);;
+    }
+    50%{
+        transform: translate(0px,600px);
+          background-color: rgb(172, 112, 6)
+;
+ box-shadow: 2px 2px 40px rgb(172, 112, 6)
+;
+
+
+    }
+    75%{
+
+ transform: translate(-300px,300px);
+
+        background-color: rgba(101, 70, 23, 0.811);;
+         box-shadow: 2px 2px 40px rgba(101, 70, 23, 0.811);;
+        
+
+
+    }
+
+    
+}

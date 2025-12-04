@@ -1,0 +1,339 @@
+body{
+    background-color: rgba(237, 160, 84, 0.508);
+  
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    
+
+
+}
+
+
+.tabs {
+    display: flex;
+    gap: 3%;
+    width: 250%;
+    /* justify-content: space-evenly; */
+    margin-right: 1%;
+    justify-content: center
+    ;
+
+
+
+
+
+}
+
+
+
+.header_nav {
+    display: flex;
+    align-items: center;
+
+    /* width:%; */
+    margin: auto;
+      background-color: rgba(187, 128, 69, 0.861);
+    border-radius: 30px;
+   height:70px;
+   border:2px solid blueviolet;
+   box-shadow: 0.5px 0.5px 20px rgb(135, 24, 238);
+   position: fixed;
+   top:0px;
+   width: 99vw;
+   z-index:1000;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+}
+.header_nav:hover{
+    
+      border:2px solid brown;
+      box-shadow: 2px 2px 50px brown;
+    border-radius:30px;
+
+}
+
+
+
+@keyframes colorchange {
+    0% {
+        color: rgb(119, 7, 96);
+        text-shadow: 2px 2px black;}
+    50%{
+        color:rgb(0, 0, 0);
+        text-shadow: 2px 2px rgb(248, 3, 224);
+    }
+    100%{
+        color: rgb(119, 7, 96);
+        text-shadow: 2px 2px black;}
+    
+    
+}
+
+.name {
+   
+    width:150%;
+    font-family: cursive;
+    font-size: 150%;
+    animation-name: colorchange;
+    animation-iteration-count: infinite;
+
+    animation-duration: 10s;
+    animation-delay: 5sec;
+    margin-left:10px;
+
+
+
+}
+.headanchor{
+    text-decoration: none;
+    font-size: 140%;
+    font-weight: bold;
+
+
+}
+.tab:hover{
+    transform: scale(1.1);
+    
+
+}
+.headanchor:hover{
+    color:rgba(15, 65, 248, 0.857);
+    text-shadow: 1px 1px 20px red;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+
+
+
+}
+
+
+
+.details {
+    margin-top: 120px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    ;
+
+
+    gap: 40px;
+
+    margin-left: 100px;
+
+
+
+}
+
+.det {
+    height: 450px;
+    width: 600px;
+    background-color: rgba(116, 226, 243, 0.405);
+    border-radius: 40px;
+ box-shadow: 2px 2px 50px;
+
+
+
+}
+
+.img2 {
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 50px;
+
+
+    margin-top: 10px;
+    opacity: 90%;
+    box-shadow: 2px 2px blanchedalmond;
+    ;
+
+}
+
+.detname {
+    margin-top: 0px;
+    ;
+    color: black;
+
+    font-size: 25px;
+    margin: auto;
+    text-align: left;
+    margin-left:40px;
+    ;
+
+    line-height: 10px;
+    /* font-weight: bold; */
+    ;
+   
+}
+
+.product{
+
+    height:400px;
+    width:500px;
+    background-color: rgb(247, 192, 116);
+    color:black;
+   
+    ;
+    border-radius: 20px;
+    ;
+    text-align: left;
+    font-size: 1.5rem;
+    padding:20px;
+    line-height: 10px;
+    ;
+
+ box-shadow: 2px 2px 20px rgb(71, 43, 1);
+ cursor:pointer;
+ transition: all;
+
+
+
+}
+
+.product:hover{
+
+    transform: scale(1.05);
+}
+
+img{
+    height:200px;
+    width:300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgb(71, 43, 1);
+    margin-bottom: 20px;
+    margin-left:100px;
+
+
+}
+
+.textmessage{
+
+ margin-left: 300px;
+ ;
+
+    background-color:rgba(133, 35, 225, 0.283);
+
+    color:black;
+    
+    ;
+    font-size: 2rem;
+    border-radius:30px;
+
+    box-shadow: 2px 2px 50px rgb(254, 230, 185);
+
+    ;
+    width:max-content;
+    padding: 20px;
+    display: none;
+    
+    
+    margin-top: 10%;
+
+    box-shadow:2px 2px 50px rgb(49, 7, 89)
+;
+line-height: 45px;
+
+  
+
+
+
+
+
+
+}
+
+
+input,button{
+
+/* margin-bottom: 10px; */
+font-size: 1.5rem;
+;
+    margin-right: 50px;
+    ;
+    margin-left:0px;
+
+}
+button{
+
+
+    text-align: center;
+    margin-top: 20px;
+    margin-left:350px;
+    border-radius: 10px;
+    padding:5px;
+    cursor: pointer;
+    padding-left:10px;
+    padding-right:10px;
+    
+    ;
+
+}
+#btnhead{
+    margin-top: 10%;
+    margin-left: 530px;
+    background-color: rgb(242, 168, 71);
+    color:rgb(31, 89, 12);
+    text-shadow: 1px 1px black;
+    cursor:pointer;
+    transition: all 0.5s;
+}
+#btnhead:hover{
+
+
+    scale:1.1;
+ background-color: brown;
+ color:white;
+}
+#reset{
+
+
+    margin-left:0px;
+}
+
+#error{
+    font-size: 1.5rem;
+    color:red;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+#close{
+color:red;
+/* font-weight: bold; */
+margin-top:-10px;
+margin-left:750px;
+
+cursor: pointer;
+
+
+
+
+}
+input{
+float: right;
+border-radius: 10px;
+width:35%
+
+}
+button{
+    transition:all 0.2s;
+
+}
+button:hover{
+
+    scale:1.04
+}

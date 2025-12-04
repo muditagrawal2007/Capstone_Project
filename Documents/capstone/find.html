@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="find.css">
+</head>
+
+<body>
+
+
+    <div class="header_nav">
+
+
+        <div class="name">
+
+
+            <a href="./index.html">
+                <h1>The Property Finder</h1>
+            </a>
+
+
+
+        </div>
+        <div class="tabs">
+            <div class="tab a1"><a class="headanchor" href="./find.html">SEARCH</a></div>
+            <div class="tab a2"><a class="headanchor" href="./about1.html">ABOUT US</a></div>
+            <div class="tab a3"><a class="headanchor" href="./contactus1.html">CONTACT US</a></div>
+            <div class="tab a4"><a class="headanchor" href="./experience1.html">FORM</a>
+            </div>
+            <div class="tab a5"><a class="headanchor" href="./login1.html">USER LOGIN</a></div>
+            <div class="tab a6"><a class="headanchor" href="./admin1.html">ADMIN LOGIN</a></div>
+        </div>
+    </div>
+
+    <div class="headsearch">
+        <div class="imgperson"></div>
+
+        <div class="det">
+
+            <div class="indet">
+                <div class="label">
+                    <h2>Search for the property</h2>
+                </div>
+                <div class="property_detail">
+                    <label>
+                        Type of Property: <br>
+                        <input type="text" id="land" required placeholder="eg. Apartment, Villa">
+
+
+                    </label><br>
+                    <label>
+                        State: <br>
+                        <input type="text" id="s">
+
+
+                    </label>
+                    <br>
+                    <label>
+                        City: <br>
+                        <input type="text" id="c">
+
+
+                        <p id="or">Enter all the details correctly</p>
+
+
+                    </label><br><button id="list"><a id="lista" href="./search1.html">List of the
+                            Properties</a></button>
+                    <button type="submit" id="search">Search</button>
+
+                    <button type="reset" id="reset">Reset</button>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <p id="close">Close X</p>
+    <div id="result">
+
+
+
+    </div>
+    </div><br>
+
+    <div class="border">
+        <div>
+            30K+
+            Properties
+        </div>
+        50+ Cities
+        <div>
+            3.5 Lakhs+ Montly Users
+        </div>
+    </div>
+    <br><br>
+    <div class="hfac">Our Facilities</div>
+    <div class="facilities">
+
+        <div class="facc">
+
+
+            <div class="fac f1">
+
+            </div>
+            <div class="facdet">
+                Parking
+            </div>
+        </div>
+        <div class="facc">
+            <div class="fac f2">
+
+
+            </div>
+            <div class="facdet">
+                Security(24*7)
+            </div>
+        </div>
+        <div class="facc">
+            <div class="fac f3">
+
+            </div>
+            <div class="facdet">
+                Garden
+            </div>
+        </div>
+
+        <div class="facc">
+            <div class="fac f4">
+
+
+            </div>
+            <div class="facdet">
+                Swimming Pool
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    <br><br>
+    <div class="hfac">Reviews</div>
+
+
+    <br><br>
+
+
+
+
+
+
+    <div class="review">
+
+
+        <div class="r1">
+            <div class="revname">
+                Mudit Agrawal
+            </div>
+            <div>
+                “A seamless end-to-end experience.
+                From searching for properties to closing the deal, the process was streamlined. Their team handled
+                inspections, financing discussions, and legal formalities so we could focus on our new home. Highly
+                recommended!”
+            </div>
+        </div>
+
+
+
+
+        <div class="r1">
+            <div class="revname">
+                Sohan
+            </div>
+            <div>
+                Fast, efficient, and results-driven.
+                We were impressed by how quickly they organized property visits, handled the negotiation, and closed the
+                deal. They made things happen – and made it look easy.”
+            </div>
+
+        </div>
+
+        <div class="r1">
+            <div class="revname">
+                Mohan
+            </div>
+            <div>
+                “Exceptional professionalism and market insight.
+                We were unsure about pricing our home, but thanks to their accurate analysis and thoughtful advice, we
+                listed at the right value and received multiple offers within days. Truly top-tier service.”
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="height">
+
+    </div>
+
+
+
+
+
+    <script>
+
+
+
+
+
+
+        const properties = [
+            {
+                propertyName: "Sunshine Residency",
+                location: "Mumbai, Maharashtra",
+                type: "Apartment",
+                area: "1200 sq ft",
+                price: "₹1.2 Cr",
+                image: "https://images.unsplash.com/photo-1501183638710-841dd1904471"
+            },
+            {
+                propertyName: "Green Valley Villa",
+                location: "Pune, Maharashtra",
+                type: "Villa",
+                area: "2200 sq ft",
+                price: "₹2.1 Cr",
+                image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9"
+            },
+            {
+                propertyName: "Skyline Heights",
+                location: "Bengaluru, Karnataka",
+                type: "Penthouse",
+                area: "1800 sq ft",
+                price: "₹1.8 Cr",
+                image: "https://images.unsplash.com/photo-1486304873000-235643847519"
+            },
+            {
+                propertyName: "Royal Heritage Homes",
+                location: "Delhi",
+                type: "Independent House",
+                area: "1500 sq ft",
+                price: "₹95 Lakh",
+                image: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914"
+            },
+            {
+                propertyName: "Ocean Breeze Residency",
+                location: "Chennai, Tamil Nadu",
+                type: "Apartment",
+                area: "1350 sq ft",
+                price: "₹88 Lakh",
+                image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+            },
+            {
+                propertyName: "Crystal Park Towers",
+                location: "Hyderabad, Telangana",
+                type: "Apartment",
+                area: "1600 sq ft",
+                price: "₹1.1 Cr",
+                image: "https://images.unsplash.com/photo-1523217582562-09d0def993a6"
+            },
+            {
+                propertyName: "Eco Smart Homes",
+                location: "Ahmedabad, Gujarat",
+                type: "Row House",
+                area: "1900 sq ft",
+                price: "₹1.4 Cr",
+                image: "https://images.unsplash.com/photo-1599423300746-b62533397364"
+            },
+            {
+                propertyName: "Palm View Apartments",
+                location: "Kochi, Kerala",
+                type: "Apartment",
+                area: "1100 sq ft",
+                price: "₹78 Lakh",
+                image: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf"
+            },
+            {
+                propertyName: "Hillside Retreat",
+                location: "Dehradun, Uttarakhand",
+                type: "Villa",
+                area: "2500 sq ft",
+                price: "₹1.9 Cr",
+                image: "https://images.unsplash.com/photo-1475856033578-76b4a04b42c1"
+            },
+            {
+                propertyName: "Urban Edge Living",
+                location: "Jaipur, Rajasthan",
+                type: "Apartment",
+                area: "1250 sq ft",
+                price: "₹82 Lakh",
+                image: "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+            },
+            {
+                propertyName: "City Crown Residency",
+                location: "Nagpur, Maharashtra",
+                type: "Apartment",
+                area: "1400 sq ft",
+                price: "₹90 Lakh",
+                image: "https://images.unsplash.com/photo-1600585154356-596af9009e82"
+            },
+            {
+                propertyName: "Maple Leaf Homes",
+                location: "Lucknow, Uttar Pradesh",
+                type: "Independent House",
+                area: "2000 sq ft",
+                price: "₹1.3 Cr",
+                image: "https://images.unsplash.com/photo-1598928506311-c55ded91a20c"
+            },
+            {
+                propertyName: "Riverfront Villas",
+                location: "Surat, Gujarat",
+                type: "Villa",
+                area: "2600 sq ft",
+                price: "₹2.4 Cr",
+                image: "https://images.unsplash.com/photo-1588854337221-4c8c7d08d31d"
+            },
+            {
+                propertyName: "Silverline Residency",
+                location: "Chandigarh",
+                type: "Penthouse",
+                area: "2000 sq ft",
+                price: "₹1.75 Cr",
+                image: "https://images.unsplash.com/photo-1527030280862-64139fba04ca"
+            }
+        ];
+        let search = document.getElementById("search")
+
+
+
+        search.addEventListener("click", function () {
+
+
+
+
+
+
+
+            let land = document.getElementById("land").value
+            console.log(land)
+            let s = document.getElementById("s")
+
+            let c = document.getElementById("c")
+
+            if (land != "" && s.value != "" && c.value != "") {
+
+
+                let result = document.getElementById("result")
+                document.getElementById("close").style.display = "block"
+
+
+                for (i = 0; i < properties.length; i++) {
+
+
+
+                    if (properties[i].type == land) {
+
+                        // let result = document.getElementById("result")
+
+
+
+                        result.innerHTML += `<div class="product"</div>
+    <img src="${properties[i].image}">
+    <p><b>Name of the property:</b> ${properties[i].propertyName}</p>
+     <p><b>Location:</b> ${properties[i].location}</p>
+      <p><b>Type of the property: </b>${properties[i].type}</p>
+      <p><b>Area:</b> ${properties[i].area}</p>
+       <p><b>Price:</b> ${properties[i].price}</p>`
+
+
+
+
+
+
+                    }
+
+                }
+
+
+            } else {
+                console.log("Asdasd")
+                document.getElementById("or").style.display = "block"
+            }
+
+
+
+
+        }
+
+
+
+
+
+
+        )
+
+
+
+
+        let close = document.getElementById("close")
+        close.addEventListener("click", function () {
+
+            close.style.display = "none"
+
+
+            document.getElementById("result").innerHTML = ""
+
+            document.getElementById("land").value = ""
+            document.getElementById("s").value = ""
+            document.getElementById("c").value = ""
+        })
+
+
+
+        let reset = document.getElementById("reset")
+        reset.addEventListener("click", function () {
+            document.getElementById("land").value = ""
+            document.getElementById("s").value = ""
+            document.getElementById("c").value = ""
+            document.getElementById("or").innerText = ""
+
+        })
+
+    </script>
+
+</body>
+
+</html>

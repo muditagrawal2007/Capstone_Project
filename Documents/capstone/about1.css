@@ -1,0 +1,245 @@
+body{
+    background-color: rgba(237, 160, 84, 0.508);
+  
+    
+
+
+}
+
+
+.tabs {
+    display: flex;
+    gap: 3%;
+    width: 250%;
+    /* justify-content: space-evenly; */
+    margin-right: 1%;
+    justify-content: center
+    ;
+
+
+
+
+
+}
+
+
+.header_nav {
+    display: flex;
+    align-items: center;
+
+    /* width:%; */
+    margin: auto;
+      background-color: rgba(187, 128, 69, 0.861);
+    border-radius: 30px;
+   height:70px;
+   border:2px solid blueviolet;
+   box-shadow: 0.5px 0.5px 20px rgb(135, 24, 238);
+   position: fixed;
+   top:0px;
+   width: 99vw;
+   z-index:1000;
+
+
+
+  
+
+
+
+
+
+
+
+
+
+}
+.header_nav:hover{
+    
+      border:2px solid brown;
+      box-shadow: 2px 2px 50px brown;
+    border-radius:30px;
+
+}
+
+
+
+@keyframes colorchange {
+    0% {
+        color: rgb(119, 7, 96);
+        text-shadow: 2px 2px black;}
+    50%{
+        color:rgb(0, 0, 0);
+        text-shadow: 2px 2px rgb(248, 3, 224);
+    }
+    100%{
+        color: rgb(119, 7, 96);
+        text-shadow: 2px 2px black;}
+    
+    
+}
+
+.name {
+   
+    width:150%;
+    font-family: cursive;
+    font-size: 150%;
+    animation-name: colorchange;
+    animation-iteration-count: infinite;
+
+    animation-duration: 10s;
+    animation-delay: 5sec;
+    margin-left:10px;
+
+
+
+}
+.headanchor{
+    text-decoration: none;
+    font-size: 140%;
+    font-weight: bold;
+
+
+}
+.tab:hover{
+    transform: scale(1.1);
+    
+
+}
+.headanchor:hover{
+    color:rgba(15, 65, 248, 0.857);
+    text-shadow: 1px 1px 20px red;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+
+
+
+}
+.outeer1{
+    /* height:340px; */
+    width:70vw;
+    background-color: rgba(199, 157, 157, 0.683);
+    color:black;
+    border-radius: 30px;
+    font-size: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ font-style: italic;
+ padding: 10px;
+
+ transition: all 3s;
+
+}
+
+
+
+.outeer1:hover{
+    transform: scale(1.04);
+    color:rgb(231, 66, 0)
+}
+.outeer6{
+
+
+    margin-top: 120px;
+    font-weight: bold;
+    font-size:40px;
+    text-align: center;
+
+}
+
+.mess{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ball2{
+    margin-top:-10px;
+    height:100px;
+    width:10px;
+    /* border-radius: 50%; */
+  background-color:rgb(9, 67, 2);
+    /* margin-left:40px; */
+
+
+    animation-name: moving;
+    animation-duration: 10s;
+
+    animation-iteration-count: infinite;
+    box-shadow: 2px 2px 50px yellow;
+    opacity: 70%;
+    border:0.5px solid rgb(164, 135, 3);
+
+    
+}
+@keyframes moving{
+    0%{
+    /* background-color:rgb(0, 89, 255); */
+
+
+    }
+
+    /* 50%{
+        background-color: black;
+       
+         box-shadow: 2px 2px 50px black;
+  
+
+    } */
+    50%{
+  /* background-color: green; */
+      
+height:1400px
+
+
+    
+}}
+
+.end{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ball{
+    margin-top:-10px;
+    height:100px;
+    width:10px;
+    /* border-radius: 50%; */
+  background-color:rgb(255, 64, 0);
+    /* margin-left:40px; */
+
+
+    animation-name: moving2;
+    animation-duration: 10s;
+
+    animation-iteration-count: infinite;
+    box-shadow: 2px 2px 50px yellow;
+    border:0.5px solid rgb(164, 135, 3);
+    opacity:70%;
+
+
+    
+}
+@keyframes moving2{
+    0%{
+    /* background-color:rgb(0, 89, 255); */
+
+
+    }
+
+    50%{
+       
+  
+height:1400px
+    }
+   
+
+
+    
+}
