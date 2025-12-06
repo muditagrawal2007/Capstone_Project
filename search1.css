@@ -415,18 +415,19 @@ button:hover {
 
 }
 
-@media (max-width:1262px){
-    #btnhead{
-   
-        margin-left:auto;
+@media (max-width:1262px) {
+    #btnhead {
+
+        margin-left: auto;
         margin-left: 30%;
 
-        
+
     }
-    .details{
+
+    .details {
         display: flex;
-        flex-direction:column;
-        gap:30px;
+        flex-direction: column;
+        gap: 30px;
         justify-content: center;
         align-items: center;
 
