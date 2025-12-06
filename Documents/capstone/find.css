@@ -178,7 +178,7 @@ border:2px solid black;
     text-align: center;
 
 }
-input{
+input,select{
     font-size: 2.5vh;
     border-radius: 20px;
     background-color: rgba(127, 255, 212, 0.324);
@@ -573,7 +573,7 @@ button{
     font-size: 1.5rem;
     ;
 }
-input{
+input,select{
     font-size: 2rem;
     ;
 }
@@ -582,5 +582,29 @@ input{
 .name{
     width: fit-content;
 }
+
+}
+
+select{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input{
+    text-align: center;
+}
+
+
+@media (max-width:1262px) {
+   
+
+    #result{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+
+    }
 
 }

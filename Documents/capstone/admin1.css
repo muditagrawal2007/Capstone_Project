@@ -130,7 +130,7 @@ form{
     text-align: center;
  margin:auto;
     margin-top:150px;
-    background-color: rgba(248, 166, 52, 0.689);
+     background-color: rgba(237, 160, 84, 0.508);
     width:500px;
     height:500px;
     padding-top: 20px;
@@ -194,13 +194,19 @@ input{
     height:30px;
     text-align: center;
 
-    background-color: rgba(243, 243, 134, 0.627);
+     background-color: rgba(237, 160, 84, 0.618);
     font-size: 20px;
     cursor: pointer;
     border-radius: 10px;
     border:2px solid rgb(55, 39, 39);
     margin-top: 20px;
+    transition: all 0.2s;
+
 }
+.b1:hover{
+    scale: 1.04;
+}
+
 .inner3{
     font-size:medium;
     text-align: center;
@@ -355,7 +361,7 @@ input{
 input{
     float: right;
     margin-right: 20px;
-    
+
     ;
 }
 

@@ -224,14 +224,20 @@ textarea {
     height: 30px;
     text-align: center;
 
-    background-color: rgba(243, 243, 134, 0.539);
+    background-color: rgba(237, 160, 84, 0.608);
     font-size: 20px;
     cursor: pointer;
     border-radius: 10px;
     border: 2px solid rgb(55, 39, 39);
     margin-top: 20px;
+    transition: all 0.2s;
+
 }
 
+.b1:hover{
+    scale:1.04;
+
+}
 .foo {
     display: flex;
     justify-content: space-between;
@@ -343,4 +349,9 @@ margin-right: 10px;
 
 
 
+}
+
+
+input,textarea{
+    background-color: rgba(237, 160, 84, 0.608)
 }
