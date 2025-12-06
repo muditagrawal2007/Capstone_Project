@@ -1,171 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="search1.css">
 </head>
+
 <body>
-      <div class="header_nav">
+    <div class="header_nav">
 
 
-            <div class="name">
+        <div class="name">
 
 
-               <a href="./index.html"> <h1>The Property Finder</h1></a>
+            <a href="./index.html">
+                <h1>The Property Finder</h1>
+            </a>
 
 
 
-            </div>
-            <div class="tabs">
-                <div class="tab a1"><a class="headanchor" href="./find.html">SEARCH</a></div>
-                <div class="tab a2"><a class="headanchor"  href="./about1.html">ABOUT US</a></div>
-                <div class="tab a3"><a class="headanchor"  href="./contactus1.html">CONTACT US</a></div>
-                <div class="tab a4"><a class="headanchor" href="./experience1.html">FORM</a>
-                </div>
-                <div class="tab a5"><a class="headanchor" href="./login1.html">USER LOGIN</a></div>
-                <div class="tab a6"><a class="headanchor" href="./admin1.html">ADMIN LOGIN</a></div>
-            </div>
         </div>
+        <div class="tabs">
+            <div class="tab a1"><a class="headanchor" href="./find.html">SEARCH</a></div>
+            <div class="tab a2"><a class="headanchor" href="./about1.html">ABOUT US</a></div>
+            <div class="tab a3"><a class="headanchor" href="./contactus1.html">CONTACT US</a></div>
+            <div class="tab a4"><a class="headanchor" href="./experience1.html">FORM</a>
+            </div>
+            <div class="tab a5"><a class="headanchor" href="./login1.html">USER LOGIN</a></div>
+            <div class="tab a6"><a class="headanchor" href="./admin1.html">ADMIN LOGIN</a></div>
+        </div>
+    </div>
     
 
-        <div class="details">
+
+    <button id="btnhead">Click here to add your property details</button>
 
 
-            <div class="det a1">
+    
 
-<img class="img2" src="images/image copy 28.png">
-<div class="detname">
+    <div class="textmessage">
 
-
-                    <p>Name of the Property : -----ABC-----</p>
-
-                    <p>Location : DELHI</p>
-                    <P>Type of the Property : FLAT</P>
-                    <p>Area ( in Sq ft) : 2000</p>
-                    <p>Price : 50L </p>
-                </div>
-
-
-            </div>
-            <div class="det a2">
+        <p id="close">Close X</p>
+        <p style="text-align: center;font-weight: bold;">Add your Property Details </p>
+        <label>Enter the name of the property: <input type="text" id="propn" required></label><br>
+        <label>Enter the location of the property: <input type="text" id="loca" required></label><br>
+        <label>Enter the type of the property: <input type="text" id="type" required></label><br>
+        <label>Enter the area(in sq.ft) of the property: <input type="number" id="area" required></label><br>
+        <label>Enter the price of the property: <input type="number" id="price" required></label><br>
+        <label>Enter the link of the image: <input type="text" id="image" required></label><br>
 
 
-                <img class="img2" src="images/image copy 19.png">
 
 
-                <div class="detname">
 
 
-                    <p>Name of the Property : -----ABC-----</p>
 
-                    <p>Location : DELHI</p>
-                    <P>Type of the Property : FLAT</P>
-                    <p>Area ( in Sq ft) : 2000</p>
-                    <p>Price : 50L </p>
-                </div>
+        <!-- <label>Enter the image of the property: <input type="file" type="file"></label> -->
 
-            </div>
-            <div class="det a3">
-                <img class="img2" src="images/image copy 20.png">
-                <div class="detname">
+        <p id="error"></p>
+        
+        <button id="btn"  type="submit" style="margin-left: 280px;">Add my Property</button>
+        <button type="reset" id="reset">Reset</button>
+
+    </div>
 
 
-                    <p>Name of the Property : -----ABC-----</p>
-
-                    <p>Location : DELHI</p>
-                    <P>Type of the Property : FLAT</P>
-                    <p>Area ( in Sq ft) : 2000</p>
-                    <p>Price : 50L </p>
-                </div>
-            </div>
-            <div class="det a4">
-                <img class="img2" src="images/image copy 21.png">
-                <div class="detname">
+    <div class="details">
 
 
-                    <p>Name of the Property : -----ABC-----</p>
-
-                    <p>Location : DELHI</p>
-                    <P>Type of the Property : FLAT</P>
-                    <p>Area ( in Sq ft) : 2000</p>
-                    <p>Price : 50L </p>
-                </div>
-            </div>
-            <div class="det a5"><img class="img2" src="images/image copy 22.png"><div class="detname">
 
 
-                    <p>Name of the Property : -----ABC-----</p>
-
-                    <p>Location : DELHI</p>
-                    <P>Type of the Property : FLAT</P>
-                    <p>Area ( in Sq ft) : 2000</p>
-                    <p>Price : 50L </p>
-                </div></div>
-            <div class="det a6">
-                <img class="img2" src="images/image copy 23.png">
-                <div class="detname">
 
 
-                    <p>Name of the Property : -----ABC-----</p>
-
-                    <p>Location : DELHI</p>
-                    <P>Type of the Property : FLAT</P>
-                    <p>Area ( in Sq ft) : 2000</p>
-                    <p>Price : 50L </p>
-                </div>
-            </div>
-            <div class="det a7">
-                <img class="img2" src="images/image copy 24.png"><div class="detname">
+    </div>
 
 
-                    <p>Name of the Property : -----ABC-----</p>
-
-                    <p>Location : DELHI</p>
-                    <P>Type of the Property : FLAT</P>
-                    <p>Area ( in Sq ft) : 2000</p>
-                    <p>Price : 50L </p>
-                </div>
-            </div>
-            <div class="det a8">
-                <img class="img2" src="images/image copy 25.png"><div class="detname">
+    <div style="height:100px;
+    "></div>
+<script src="./search.js"> 
 
 
-                    <p>Name of the Property : -----ABC-----</p>
-
-                    <p>Location : DELHI</p>
-                    <P>Type of the Property : FLAT</P>
-                    <p>Area ( in Sq ft) : 2000</p>
-                    <p>Price : 50L </p>
-                </div>
-            </div>
-            <div class="det a9"> <img class="img2" src="images/image copy 26.png"><div class="detname">
-
-
-                    <p>Name of the Property : -----ABC-----</p>
-
-                    <p>Location : DELHI</p>
-                    <P>Type of the Property : FLAT</P>
-                    <p>Area ( in Sq ft) : 2000</p>
-                    <p>Price : 50L </p>
-                </div></div>
-            <div class="det a10">
-                 <img class="img2" src="images/image copy 27.png"><div class="detname">
-
-
-                    <p>Name of the Property : -----ABC-----</p>
-
-                    <p>Location : DELHI</p>
-                    <P>Type of the Property : FLAT</P>
-                    <p>Area ( in Sq ft) : 2000</p>
-                    <p>Price : 50L </p>
-                </div>
-            </div>
-
-
-        </div>
-
+</script>
+    
 
 </body>
+
 </html>

@@ -29,7 +29,7 @@ body{
 
     /* width:%; */
     margin: auto;
-      background-color: rgba(187, 128, 69, 0.861);
+      background-color: rgb(187, 128, 69);
     border-radius: 30px;
    height:70px;
    border:2px solid blueviolet;
@@ -242,4 +242,108 @@ height:1400px
 
 
     
+}
+
+
+
+
+@media (max-width:1390px){
+
+    .tabs{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* margin:-1px; */
+        
+
+        background-color: rgb(187, 128, 69);
+        margin-bottom:20px;
+
+
+            margin-top:0px ;
+                width: 100%;
+
+        
+
+    }
+
+.header_nav {
+
+    flex-direction: column;
+    text-align: center;
+
+     margin-left:-10px;
+     border:none;
+     box-shadow: none;
+     ;
+     width:100%;
+     margin-left:-10px;
+     height:fit-content;
+     position:static;
+
+
+     width:100%;
+
+     
+
+
+
+
+
+}
+
+h1{
+
+padding:0px;
+ margin:0dvb;
+
+} 
+
+.design{
+
+
+    margin-top: 110px;
+
+}
+
+.zig2{
+
+
+    display: none;
+
+}
+.zig{
+    display: none;
+}
+
+
+form{
+     height:fit-content;
+    padding:10px;
+    margin-top:200px;
+    
+
+    
+}
+.name{
+    width: fit-content;
+}
+}
+
+
+.line{
+   height:0.4vw;
+    width:100px;
+    background-color:aqua;
+    margin:20px;
+    animation-name:move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+     margin-left:-10px;
+
+
+
 }
