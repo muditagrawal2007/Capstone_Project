@@ -27,17 +27,18 @@ body{
     display: flex;
     align-items: center;
 
-    /* width:%; */
+    width:99vw;
     margin: auto;
-       background-color: rgba(187, 128, 69, 0.861);
+    background-color: rgb(187, 128, 69);
     border-radius: 30px;
    height:70px;
    border:2px solid blueviolet;
    box-shadow: 0.5px 0.5px 20px rgb(135, 24, 238);
    position: fixed;
    top:0px;
-   width: 99vw;
    z-index:1000;
+  
+
 
 
 
@@ -137,6 +138,7 @@ form{
     border-radius: 40px;
     box-shadow: 2px 2px 50px;
     transition: all 3s ;
+
    
 
    
@@ -350,3 +352,91 @@ input{
 
     
 }
+input{
+    float: right;
+    margin-right: 20px;
+    
+    ;
+}
+
+@media (max-width:1390px){
+
+    .tabs{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin:-1px;
+
+        background-color: rgb(187, 128, 69);
+        margin-bottom:20px;
+
+
+            margin-top:0px ;
+            width: 100%;
+
+        
+
+    }
+
+.header_nav {
+
+    flex-direction: column;
+    text-align: center;
+
+     margin-left:-10px;
+     border:none;
+     box-shadow: none;
+     ;
+     width:100%;
+     margin-left:-10px;
+     height:fit-content;
+     position: static;
+     
+
+
+
+
+
+}
+
+h1{
+
+padding:0px;
+margin:0px;
+
+
+}
+
+.design{
+
+
+    margin-top: 110px;
+
+}
+
+.zig2{
+
+
+    display: none;
+
+}
+.zig{
+    display: none;
+}
+
+
+form{
+     height:fit-content;
+    padding:10px;
+    margin-top:0px;
+
+
+    
+}
+.name{
+    width: fit-content;
+}
+}
+
+
+
