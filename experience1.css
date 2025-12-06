@@ -234,10 +234,11 @@ textarea {
 
 }
 
-.b1:hover{
-    scale:1.04;
+.b1:hover {
+    scale: 1.04;
 
 }
+
 .foo {
     display: flex;
     justify-content: space-between;
@@ -334,24 +335,26 @@ form {
 
 
     }
-    .name{
+
+    .name {
         width: fit-content;
     }
 }
 
 
-input{
+input {
 
 
-float: right;
-margin-right: 10px;
-;
+    float: right;
+    margin-right: 10px;
+    ;
 
 
 
 }
 
 
-input,textarea{
+input,
+textarea {
     background-color: rgba(237, 160, 84, 0.608)
 }

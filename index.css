@@ -1,10 +1,10 @@
-body{
+body {
     background-color: bisque;
     background-image: url("images/image\ copy\ 2.png");
 
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 
 
 }
@@ -16,8 +16,7 @@ body{
     width: 250%;
     /* justify-content: space-evenly; */
     margin-right: 1%;
-    justify-content: center
-;
+    justify-content: center;
 
 
 
@@ -34,16 +33,16 @@ body{
     /* width:; */
     margin: auto;
     /* margin-top: -10px; */
-         background-color: rgba(187, 128, 69, 0.861);
+    background-color: rgba(187, 128, 69, 0.861);
     border-radius: 30px;
-   height: 4vw;
-   border:0.1vw solid blueviolet;
-   box-shadow: 0.5px 0.5px 20px rgb(135, 24, 238);
+    height: 4vw;
+    border: 0.1vw solid blueviolet;
+    box-shadow: 0.5px 0.5px 20px rgb(135, 24, 238);
 
-.tab{
-        font-size:1.3vw;
+    .tab {
+        font-size: 1.3vw;
     }
-  
+
 
 
 
@@ -57,28 +56,30 @@ body{
 
 
 
-@media all and (max-width:883px){
-    .tab{
-        font-size:1.3vw;
+@media all and (max-width:883px) {
+    .tab {
+        font-size: 1.3vw;
     }
 
-    .data{
-        font-size:1vw;
+    .data {
+        font-size: 1vw;
 
 
     }
-    body{
+
+    body {
         background-repeat: no-repeat;
         background-size: cover;
     }
 
 
 }
-.header_nav:hover{
-    
-      border:0.1vw solid red;
+
+.header_nav:hover {
+
+    border: 0.1vw solid red;
     box-shadow: 3px 3px 50px red;
-    border-radius:30px;
+    border-radius: 30px;
 
 }
 
@@ -87,21 +88,25 @@ body{
 @keyframes colorchange {
     0% {
         color: rgb(119, 7, 96);
-        text-shadow: 2px 2px black;}
-    50%{
-        color:rgb(0, 0, 0);
+        text-shadow: 2px 2px black;
+    }
+
+    50% {
+        color: rgb(0, 0, 0);
         text-shadow: 2px 2px rgb(248, 3, 224);
     }
-    100%{
+
+    100% {
         color: rgb(119, 7, 96);
-        text-shadow: 2px 2px black;}
-    
-    
+        text-shadow: 2px 2px black;
+    }
+
+
 }
 
 .name {
-   
-    width:150%;
+
+    width: 150%;
     font-family: cursive;
     font-size: 150%;
     animation-name: colorchange;
@@ -121,21 +126,24 @@ a {
 
 
 }
-.tab:hover{
+
+.tab:hover {
     transform: scale(1.1);
-    
+
 
 }
-a:hover{
-    color:rgba(15, 65, 248, 0.857);
+
+a:hover {
+    color: rgba(15, 65, 248, 0.857);
     text-shadow: 1px 1px 20px red;
     cursor: pointer;
 }
-.head{
 
-    
+.head {
 
-    margin-top:-3%;
+
+
+    margin-top: -3%;
 
     font-family: cursive;
     font-size: 3vw;
@@ -146,11 +154,12 @@ a:hover{
     animation-duration: 10s;
     animation-delay: 5sec;
 
-    
+
 
 }
-.data{
-   
+
+.data {
+
 
 
     font-style: italic;
@@ -159,129 +168,130 @@ a:hover{
 
     text-align: center;
     font-weight: bold;
-    color:rgb(192, 15, 232);
-    transition:all 5s;
+    color: rgb(192, 15, 232);
+    transition: all 5s;
     text-shadow: 2px 2px 4px bisque;
 
 
- 
 
-    
+
+
 }
-.data:hover{
+
+.data:hover {
     transform: scale(1.1);
-    color:brown;
+    color: brown;
     text-shadow: 2px 2px 50px black;
-    
+
 
 
 }
 
-.line{
-   height:0.4vw;
-    width:100px;
-    background-color:aqua;
-    margin:20px;
-    animation-name:move;
+.line {
+    height: 0.4vw;
+    width: 100px;
+    background-color: aqua;
+    margin: 20px;
+    animation-name: move;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     visibility: hidden;
     display: flex;
     justify-content: center;
-     margin-left:-10px;
+    margin-left: -10px;
 
 
 
 }
-@keyframes move{
-    0%{
 
-        visibility:visible;
-        
-       
+@keyframes move {
+    0% {
+
+        visibility: visible;
+
+
 
     }
-    50%{
-        width:100vw;
-        background-color:red
 
- 
-
-   
-
+    50% {
+        width: 100vw;
+        background-color: red
     }
 
 }
 
-.line2{
-    height:0.4vw;
-    width:100px;
+.line2 {
+    height: 0.4vw;
+    width: 100px;
 
 
-    background-color:black;
-    margin:20px;
-    animation-name:move;
+    background-color: black;
+    margin: 20px;
+    animation-name: move;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     visibility: hidden;
     display: flex;
     justify-content: center;
     animation-delay: 2s;
-     margin-left:-10px;
+    margin-left: -10px;
 
 
 }
 
 
-@media screen and (max-width:978px){
+@media screen and (max-width:978px) {
 
 
-    body{
+    body {
         background-image: none;
-       
-    }
-
-
-   .tabs{
-        font-size: 5rem;;
-
-    
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    top:10px;
-    
-    align-items: center;
-    justify-content: center;
-
-    height:fit-content;
-
-
-
-
-       
 
     }
-    .tab{
+
+
+    .tabs {
+        font-size: 5rem;
+        ;
+
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        top: 10px;
+
+        align-items: center;
+        justify-content: center;
+
+        height: fit-content;
+
+
+
+
+
+
+    }
+
+    .tab {
         font-size: 5rem;
     }
-    .header_nav{
+
+    .header_nav {
         border-radius: none;
         border-color: none;
         border: none;
         box-shadow: none;
-        height:fit-content;
-        margin:2px;
-        
+        height: fit-content;
+        margin: 2px;
 
-        
+
+
 
 
     }
 
 
-    .data{
-        font-size:20px;
+    .data {
+        font-size: 20px;
 
     }
 }
